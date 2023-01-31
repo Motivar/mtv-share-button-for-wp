@@ -1,3 +1,9 @@
+/**
+ * check if share is supported and replace the link with a function
+ * 
+ * @param {*} element 
+ * @returns 
+ */
 function mtv_share(element) {
     if (navigator.share) {
         window.event.preventDefault();
