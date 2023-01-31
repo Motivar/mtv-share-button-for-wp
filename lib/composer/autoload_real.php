@@ -29,20 +29,8 @@ class ComposerAutoloaderInitfdfde6c708c7741ddd5d285d6d2db201
         require __DIR__ . '/autoload_static.php';
         call_user_func(\Composer\Autoload\ComposerStaticInitfdfde6c708c7741ddd5d285d6d2db201::getInitializer($loader));
 
-        $loader->setApcuPrefix('xfaoEz/4LixaaFjLefHGO');
+        $loader->setApcuPrefix('FQ7VAm0B3IXxhWdD9po2F');
         $loader->register(true);
-
-        $filesToLoad = \Composer\Autoload\ComposerStaticInitfdfde6c708c7741ddd5d285d6d2db201::$files;
-        $requireFile = static function ($fileIdentifier, $file) {
-            if (empty($GLOBALS['__composer_autoload_files'][$fileIdentifier])) {
-                $GLOBALS['__composer_autoload_files'][$fileIdentifier] = true;
-
-                require $file;
-            }
-        };
-        foreach ($filesToLoad as $fileIdentifier => $file) {
-            ($requireFile)($fileIdentifier, $file);
-        }
 
         return $loader;
     }

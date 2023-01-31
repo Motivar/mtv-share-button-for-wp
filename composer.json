@@ -21,8 +21,7 @@
     "autoload": {
         "psr-4": {
             "MTV_Share\\": "includes/classes/"
-        },
-        "files": ["includes/functions/init.php"]
+        }
     }
 
 }

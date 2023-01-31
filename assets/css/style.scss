@@ -1,0 +1,38 @@
+:root {
+    --mtv-share-size: 20px;
+    --mtv-share-radius: 5px;
+    --mtv-share-bcg: rgba(239, 239, 239, 0.6);
+    --mtv-share-bcg-hover: rgba(239, 239, 239, 1);
+    --mtv-share-color: #000;
+}
+
+.mtv-share-link {
+    display: block;
+    width: auto;
+    position: relative;
+    a {
+        display: grid;
+        grid-template-columns: var(--mtv-share-size) auto;
+        column-gap: calc(var(--mtv-share-size) / 2);
+        align-items: center;
+        text-decoration: none;
+        padding: calc(var(--mtv-share-size) / 2) var(--mtv-share-size);
+        border-radius: var(--mtv-share-radius);
+        background-color: var(--mtv-share-bcg);
+        transition: background-color 0.2s ease-in-out;
+        color: var(--mtv-share-color);
+        &:hover {
+            background-color: var(--mtv-share-bcg-hover);
+        }
+    }
+    svg {
+        width: var(--mtv-share-size);
+        height: var(--mtv-share-size);
+        fill: var(--mtv-share-color);
+        &.hidden {
+            display: none;
+            width: 0px;
+            height: 0px;
+        }
+    }
+}
