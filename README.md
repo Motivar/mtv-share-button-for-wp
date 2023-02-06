@@ -7,6 +7,6 @@ A simple share button shortcode for WordPress. The share method uses navigate.sh
 1. Install the plugin
 2. Add the following Shortcode either on the editor or the php files of your templates.
 
-```bash
+```php
 [mtv_share_button]
 ```
