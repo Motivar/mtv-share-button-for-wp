@@ -3,7 +3,7 @@
         'name' => 'motivar/mtv-share-button-for-wp',
         'pretty_version' => '1.0',
         'version' => '1.0.0.0',
-        'reference' => NULL,
+        'reference' => null,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'motivar/mtv-share-button-for-wp' => array(
             'pretty_version' => '1.0',
             'version' => '1.0.0.0',
-            'reference' => NULL,
+            'reference' => null,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
